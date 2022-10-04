@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="has-background-black-ter">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Easy Answers</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link rel="shortcut icon" href="images/icon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/default-styles.css">
+        <script src = "src/app.js" type = "module"></script>
+    </head>
+
+    <body>
+        <nav-component data-current="app"></nav-component>
+
+		<section class="section content p-4">
+            <div class="container">
+                <div class="columns is-centered is-vcentered">
+                    <div class="column is-one-fifth">
+                        <h3 class="has-text-danger" id="title">Get an Easy Answer</h3>
+						<p class="has-text-light">Enter a search query, and the number of sentences you want your answer to be.</p>
+                    </div>
+					<div class="column is-two-thirds field has-addons">
+						<div class="control">
+							<input class="input" type="number" value ="3" id="num" name="num" min="1" max="8">
+						</div>
+						<div class="control is-expanded">
+							<input class="input" type="search" id="search-field" name="search-field" placeholder="query">
+						</div>
+						<div class="control">
+							<a class="button is-info is-danger" id="search-button">Search</a>
+						</div>
+					</div>
+                </div>
+				<hr>
+                <div class="columns">
+                    <div class="columns is-multiline" id="answers">
+                        
+                    </div>
+                    <div class="column is-one-quarter">
+                        <h4 class="has-text-light" id="sources"></h4>
+                        <br><a class="has-text-danger" id="a1"></a>
+                        <br><br><a class="has-text-danger" id="a2"></a>
+                        <br><br><a class="has-text-danger" id="a3"></a>
+                        <br><br><a class="has-text-danger" id="a4"></a>
+                        <br><br><a class="has-text-danger" id="a5"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+		<footer-component data-title="Easy Answers - App"></footer-component>
+	</body>
+</html>

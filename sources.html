@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="has-background-black-ter">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Easy Answers</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link rel="shortcut icon" href="images/icon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/default-styles.css">
+        <script src = "src/favorites.js" type = "module"></script>
+    </head>
+
+    <body>
+        <nav-component data-current="sources"></nav-component>
+
+		<section class="section content pt-4">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column is-two-thirds pb-0">
+                        <h1 class="has-text-danger mb-0" id="title">Easy Answers Documentation</h1>
+                        <hr>
+                        <h3 class="has-text-light">Project Requirements</h3>
+                        <a class="has-text-danger" href="https://github.com/tonethar/IGME-330-Fall-2021/blob/main/projects/project-1.md">https://github.com/tonethar/IGME-330-Fall-2021/blob/main/projects/project-1.md</a>
+                        <h3 class="has-text-light">Resources Utilized</h3>
+                        <a href="https://bulma.io/documentation/" class="has-text-danger">https://bulma.io/documentation/</a>
+                        <br><a href="https://github.com/tonethar/IGME-230-Master/blob/master/notes/web-apps-9.md" class="has-text-danger">https://github.com/tonethar/IGME-230-Master/blob/master/notes/web-apps-9.md</a>
+                        <br><a href="https://api.rakuten.co.jp/en/" class="has-text-danger">https://api.rakuten.co.jp/en/</a>
+                        <br><a href="https://fonts.google.com/specimen/Patua+One" class="has-text-danger">https://fonts.google.com/specimen/Patua+One</a>
+                        <h3 class="has-text-light">APIs</h3>
+                        <a href="https://www.meaningcloud.com/products/automatic-summarization" class="has-text-danger">MeaningCloud Summarization</a>
+                        <br><a href="https://learn.meaningcloud.com/developer/summarization/1.0/doc" class="has-text-danger">Docs</a>
+                        <br><a href="https://meaningcloud-summarization-v1.p.rapidapi.com/summarization-1.0" class="has-text-danger">Endpoint</a>
+                        <br><a href="https://english.api.rakuten.net/apigeek/api/google-search3/endpoints" class="has-text-danger">Google Search by apigeek</a>
+                        <br><a href="https://english.api.rakuten.net/apigeek/api/google-search3/details" class="has-text-danger">Docs</a>
+                        <br><a href="https://google-search3.p.rapidapi.com/api/v1/search/" class="has-text-danger">Endpoint</a>
+                        <h3 class="has-text-light">Noteworthy</h3>
+                        <h5 class="has-text-danger">Mobile Friendly</h5>
+                        <p class="has-text-light">The Bulma framework was designed for "mobile first". Media queries ensure that when the screen becomes smaller, the navigation will switch over to a burger menu.</p>
+                        <h5 class="has-text-danger">Code</h5>
+                        <p class="has-text-light">By utilizing web components, elements such as navigation, answers, and favorites can easily be added, removed and changed within the code. Ajax via fetch() is utilized to make calls to the APIs.</p>
+                        <h5 class="has-text-danger">UX</h5>
+                        <p class="has-text-light">Standards such as "you are here" cues, app states indicators, and simple interfaces are followed. Fully utilizes Bulma's functionality for a great looking experience.</p>
+                        <h3 class="has-text-light">Grading</h3>
+                        <p class="has-text-light">App contains 3 additional controls: search field, number of sentences, select source.<br>Uses Ajax via fetch().<br>Favorites page with remove favorites button.<br>Complete home and documentation pages.<br>Global navigation system, embedded font, state cues, and bulma is used.<br>Valid HTML, CSS, and JS.<br>Fully functioning web components.<br>I believe that I went above and beyond by learning and utilizing additional bulma features, as well as using multiple APIs and additional web components in order to fully flesh out my project. </p>
+                        <h3 class="has-text-light">To Do</h3>
+                        <p class="has-text-light">Improve scaling and alignment of answer components<br>Further research text summarization APIs that require POST requests<br>Save recent search query to local storage</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+		<footer-component data-title="Easy Answers - Sources"></footer-component>
+	</body>
+</html>
